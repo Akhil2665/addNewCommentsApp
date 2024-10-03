@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'roboto';
+}
+.comment-card {
+  display: flex;
+  justify-content: space-between;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.heading {
+  font-size: 22px;
+}
+.about {
+  font-size: 14px;
+}
+.name-input {
+  font-size: 18px;
+}
+.text-area-input {
+  width: 100%;
+  height: 100px;
+}
+
+.comment-button {
+  background-color: #0284c7;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border-width: 0px;
+  align-self: flex-start;
+}
+.comment-counter {
+  display: flex;
+}
+.comments-heading {
+  font-size: 26px;
+  font-weight: 700;
+}
+.comment-count {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 24px;
+  height: 40px;
+  text-align: center;
+  width: 30px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+.comment-image {
+  height: 200px;
+  width: 200px;
+}
