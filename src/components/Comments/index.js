@@ -28,7 +28,7 @@ class Comments extends Component {
 
   addCommentToList = event => {
     event.preventDefault()
-    const {userName, userComment, commentsList} = this.state
+    const {userName, userComment, commentsList, commentCount} = this.state
     const backgroundClass = `initial-container ${
       initialContainerBackgroundClassNames[
         Math.ceil(
@@ -49,6 +49,7 @@ class Comments extends Component {
       commentsList: [...commentsList, newComment],
       userComment: '',
       userName: '',
+      commentCount: commentCount + 1,
     })
   }
 
