@@ -3,12 +3,8 @@
 import './index.css'
 
 const CommentItem = props => {
-  const {
-    commentDetails,
-    backgroundClassName,
-    onChangeLike,
-    deleteComment,
-  } = props
+  const {commentDetails, backgroundClassName, onChangeLike, deleteComment} =
+    props
 
   const {commentId, userName, userComment, isLiked} = commentDetails
 

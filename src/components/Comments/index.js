@@ -81,13 +81,8 @@ class Comments extends Component {
   }
 
   render() {
-    const {
-      commentCount,
-      userName,
-      userComment,
-      commentsList,
-      backgroundClass,
-    } = this.state
+    const {commentCount, userName, userComment, commentsList, backgroundClass} =
+      this.state
 
     return (
       <div className="page-container p-5">
